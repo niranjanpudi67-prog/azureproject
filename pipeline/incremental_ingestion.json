@@ -152,12 +152,6 @@
 				"typeProperties": {
 					"source": {
 						"type": "JsonSource",
-						"additionalColumns": [
-							{
-								"name": "cdc",
-								"value": "$$FILEPATH"
-							}
-						],
 						"storeSettings": {
 							"type": "AzureBlobFSReadSettings",
 							"recursive": true,
